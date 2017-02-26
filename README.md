@@ -12,12 +12,14 @@ To build the sample demo just follow these instructions:
  1. install `polymerize`
 
      `pub global activate polymerize`
+ 
+ 2. pub get
 
- 2. prepare the project
+ 3. prepare the project
 
      `polymerize init`
 
- 3. build it with bazel
+ 4. build it with bazel
 
      `bazel build html5_demo`
 
