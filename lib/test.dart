@@ -26,6 +26,7 @@ void main() {
     ..value = "Prova";
   body.appendChild(div);
   body.appendChild(input);
+  
 
   window.customElements.define('my-component', asConstructor(MyComponent));
 
