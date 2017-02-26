@@ -1,0 +1,21 @@
+<html>
+<head>
+    <link rel='import' href='imd.html'>
+
+    <!-- load main component -->
+    <link rel='import' href='external/html5/src/html5_support.html' rel='import'>
+    <link rel='import' href="html5_demo.mod.html" rel="import">
+    <!--link rel='import' href='todo_sample1/my-comp.html'-->
+</head>
+<body>
+
+<script>
+ require(['external/html5/src/html5_support','dart_sdk','html5_demo'], function(html_support,sdk,demo) {
+
+   sdk._isolate_helper.startRootIsolate((args) =>  demo.test.main(args), []);
+
+
+ })
+</script>
+</body>
+</html>
