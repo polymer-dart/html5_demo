@@ -6,8 +6,8 @@ homepage: https://github.com/dam0vm3nt/html
 environment:
     sdk: ">=1.8.0 <2.0.0"
 dependencies:
-  html5: ^0.0.2
+  html5: ^0.0.3
   js: ^0.6.1
-dependency_overrides:
- html5:
-   path: /home/vittorio/Develop/dart/html_lib_bazel
+#dependency_overrides:
+# html5:
+#   path: /home/vittorio/Develop/dart/html_lib_bazel
