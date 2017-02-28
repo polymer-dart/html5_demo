@@ -30,4 +30,4 @@ The build result will be in the `bazel-bin` folder from where you can serve with
 
 ## Caveats
 
-Tested only for `chrome`. Firefox should work apart from some support for html import that's still missing.
+Tested only for `chrome`. Firefox and other browsers should work if the right polyfills are added
